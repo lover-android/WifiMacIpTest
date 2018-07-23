@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.wifimaciptest.MainActivity">
+
+    <TextView
+        android:id="@+id/getMacAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="getMacAddress"/>
+
+    <TextView
+        android:id="@+id/getIpAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="getIpAddress"/>
+
+    <TextView
+        android:id="@+id/getWifiInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="getWifiInfo"/>
+
+    <TextView
+        android:id="@+id/ipAddressToint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ipAddressToint"/>
+
+    <TextView
+        android:id="@+id/intToIpAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="intToIpAddress"/>
+
+    <TextView
+        android:id="@+id/getAvailableNetworks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="getAvailableNetworks"/>
+
+    <TextView
+        android:id="@+id/getConnectedWifiMacAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="getConnectedWifiMacAddress"/>
+
+</LinearLayout>
